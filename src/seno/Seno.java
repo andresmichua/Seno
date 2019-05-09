@@ -20,5 +20,12 @@ public class Seno {
         }
         return resultado;
     }
+    public int exponente(int n){
+        int operacion=1;
+        for (int i=1; i<=n;i++){
+         operacion= 2*i-1;
+        }
+        return operacion;
+    }
     
 }
