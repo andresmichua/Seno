@@ -10,6 +10,10 @@ public class Seno {
         System.out.println("facotrial de 0 "+factorial(0));
         for(int i=1;i<=13;i+=2){
         System.out.println("factorial de "+i+" "+factorial(i));
+        
+            System.out.println(numeroImpares(2));
+            
+            System.out.println("El calculo del exponente es "+calculaExponente(2, 5));
         }
     }
     
@@ -20,12 +24,18 @@ public class Seno {
         }
         return resultado;
     }
-    public int exponente(int n){
+    public static int numeroImpares(int n){
         int operacion=1;
         for (int i=1; i<=n;i++){
          operacion= 2*i-1;
         }
         return operacion;
+    }
+    
+    public static int calculaExponente(int base,int exponente){
+        int resultado=0;
+        resultado = (int)Math.pow(base, exponente);
+        return resultado;
     }
     
 }
