@@ -45,7 +45,6 @@ public class Seno {
      * @param n variable que referencia 
      * @return resultado del factorial
     */
-    
      private static double factorial(int con, int n){
         if(con > n)
             return 1;

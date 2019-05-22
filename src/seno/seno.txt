@@ -2,20 +2,19 @@
 
 Seno.java
 
-Realizar un programa que permita calcular el resultado de una funcion senoidal 
+Evaluar una funcion trigonométrica senoidal empleando la serie de taylor, evaluada en f(0) 
  
 
 Sinopsis
 
-1.El usuario ingresara un valor el cual sera usado en diferentes metodos dentro del programa.
-2.El valor ingresado sera de la forma f(x), donde x es el valor ingresado.
-3.Se calcular el resultados usando 4 o mas metodos.
-4.Se mostrara el resultado en una consola (stdout)
+implementar un codigo en un lenguaje de programacion que resuelva una funcion trigonometrica senoidal empelando una serie de taylor
+evaluada en la decimo tercera derivada.
 
 
 Descripcion
 
-Este programa resuelve una funcion senoidal dado un numero el cual sera ingresado mediante el stdin (teclado) y definido por el usuario, ostrando el resultado en la consola del IDE.
+Este programa resuelve una funcion senoidal dado un numero el cual sera ingresado mediante el stdin (teclado) y definido por el usuario 
+mostrando el resultado en la consola del IDE.
 
 
 Ejemplos
