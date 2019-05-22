@@ -8,11 +8,11 @@ public class Seno {
 //        for (int i = 1; i <= 13; i += 2) {
 //            System.out.println("factorial de " + i + " " + factorial(i));
 //        }
-        System.out.println(numeroImpares(2));
-
-        System.out.println("El calculo del exponente es " + calculaExponente(2, 3));
-
-        imprimeImpares(13);
+//        System.out.println(numeroImpares(2));
+//
+//        System.out.println("El calculo del exponente es " + calculaExponente(2, 3));
+//
+//        imprimeImpares(13);
 
         calculaSeno();
 
@@ -39,6 +39,13 @@ public class Seno {
             System.out.println(i);
         }
     }
+    
+    /** 
+     * @param con variable que cuenta
+     * @param n variable que referencia 
+     * @return resultado del factorial
+    */
+    
      private static double factorial(int con, int n){
         if(con > n)
             return 1;
