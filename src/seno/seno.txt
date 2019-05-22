@@ -19,13 +19,13 @@ Este programa resuelve una funcion senoidal dado un numero el cual sera ingresad
 
 
 Ejemplos
-sin(90)= 1
-sin(45)= 0.707106
-sin(120)=0.866025
+sin(1)= cerca de 0.8414
+sin(90)= cerca de 1
+sin(0) = 0
 
 
 
-Ver también 
+Ver tambiï¿½n 
 
 Seno.txt
 Seno.java
