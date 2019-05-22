@@ -17,6 +17,7 @@ public class Seno {
         
         imprimeImpares(13);
         
+        calculaSeno();
         
     }
     
@@ -47,4 +48,17 @@ public class Seno {
             System.out.println(i);
     }
     
-}
+    public static void calculaSeno(){
+        int x= 1; 
+        int signo=1;
+        double resultado=0,calculo;
+            for(int i=1;i<=13;i+=2){
+            calculo= Math.pow(x, i) / factorial(i) *signo;
+            signo = signo * -1;
+            resultado = resultado+calculo;
+            }
+            System.out.println("f("+x+") = "+resultado);
+    }
+    }
+    
+
